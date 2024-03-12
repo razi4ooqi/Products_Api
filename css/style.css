@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 75%;
+}
+
+.navbar .collapse a,i{
+    color: gold;
+    font-size: 1.5rem;    
+}
+
+.product_img{
+    height: 250px; 
+}
+
+.cart_img{
+    height: 40px;
+}
+
+#cart{
+    height: 800px;
+    width: 300px;
+    background-color: red;
+}
+
+.cart_icon{
+    position: relative;
+}
+
+.cart_icon sup{    
+    position: absolute;    
+    font-weight: bolder;
+    top: 30%;
+    right: 8%;
+}
+
+.container-fluid{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    
+}
+
